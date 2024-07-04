@@ -1,7 +1,5 @@
 # 나만의 작은 ICCAS 2024 개발 레포지토리 
 
-![Firebase Logo]([https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Firebase_Logo.png/240px-Firebase_Logo.png](https://firebase.google.com/static/images/brand-guidelines/logo-built_black.png?hl=ko))
-
 ## My_Links
 
 - [My Blog](https://blog.naver.com/muharvey)
@@ -27,6 +25,7 @@
 - **사용자 UID 별로 일기 내용 및 날짜를 저장하도록 기능 작성**
 - ** 구글 연동 로그인 **
 - ** 파이어베이스의 이메일/비밀번호 로그인에서 회원 가입 시, 아이디를 작성하도록 하여 해당 아이디를 로그인 때 입력하면, db에서 이메일과 비교하여 대응되는 이메일이 있을 경우 로그인 가능하도록 함.
-
+- ** 싱글톤 패턴을 통해 최적화를 해보았음.
+- ![싱글톤]([https://firebase.google.com/static/images/brand-guidelines/logo-built_black.png?hl=ko](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbcx3J6%2FbtsBipDsE9Y%2FoZR5M3bhDkoJ1Co3PWKAAk%2Fimg.webp))
 
 본 프로젝트에서는 Kotlin 및 Java를 사용하였습니다. 안드로이드 스튜디오를 이용하여 프로젝트를 개발하였습니다. Firebase를 통해 데이터베이스 및 사용자 인증 기능을 구현하였습니다.
